@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/triple-slash-reference
+/// <reference types="vitest" />
 import { fileURLToPath } from 'node:url'
 import { resolve, dirname } from 'node:path'
 import { defineConfig } from 'vite'
@@ -11,5 +13,8 @@ export default defineConfig({
       entry: resolve(__dirname, 'lib/index.ts'),
       name,
     },
+  },
+  test: {
+    reporters: 'verbose',
   },
 })
