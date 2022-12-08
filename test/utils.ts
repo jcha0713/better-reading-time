@@ -4,7 +4,7 @@ export function generateText(lang: string, length: number): string {
     ko: '안녕',
   }
   // eslint-disable-next-line unicorn/no-new-array
-  const words = new Array(length).fill(textLang[lang])
+  const words = new Array(length).fill(textLang[lang as keyof typeof textLang])
   const text = words.join(' ')
   return text
 }
