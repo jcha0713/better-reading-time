@@ -1,13 +1,15 @@
 {
   "prettier": "true",
   "rules": {
+    "capitalized-comments": "off",
     "unicorn/no-array-for-each": "off",
-    "@typescript-eslint/naming-convention": "off",
-    "@typescript-eslint/parameter-properties": "off",
-    "@typescript-eslint/no-unsafe-assignment": "off",
+    "unicorn/prefer-code-point": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/no-unsafe-return": "off",
-    "@typescript-eslint/consistent-type-definitions": "off",
-    "capitalized-comments": "off"
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/parameter-properties": "off",
+    "@typescript-eslint/consistent-type-definitions": "off"
   }
 }
